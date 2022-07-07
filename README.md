@@ -35,3 +35,7 @@ For example you can download latest version as ZIP file. such as https://github.
 ```
 Hello Max!
 ```
+
+### Performance
+
+The takes time to include files and run the engine and print the example output was 0.0048439502716064s which is super fast.
