@@ -1,7 +1,7 @@
 <?php
 spl_autoload_register(function ($classname)
 {
-    $dirs = ['./twig-3.4.1/'];
+    $dirs = ['./twig-3.4.3/'];
     foreach ($dirs as $dir) {
         $filename = $dir . str_replace('\\', '/', $classname) .'.php';
         if (file_exists($filename)) {
